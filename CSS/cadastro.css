@@ -1,0 +1,230 @@
+*{margin: 0}
+
+.fundo
+{
+    width: 100VW;
+    height: 100VH;
+    background-color: rgb(41, 41, 41);
+}
+
+.cabeçalho
+{
+    width: 100VW;
+    height: 18VH;
+    position: absolute;
+    margin-top: 0VW;
+    margin-left: 0VH;  
+}
+
+.filmes
+{
+    width: 122.7VH;
+    position: absolute;
+    margin-top: 8.7VW;
+    margin-left: 85.15VH;
+    filter: brightness(60%);
+}
+
+.login
+{
+    width: 28VW;
+    height: 70VH;
+    position: absolute;
+    margin-top: 12VW;
+    margin-left: 6.5VW;
+    background-color:  #0F3C85;
+}
+
+.texto_1
+{
+    position: absolute;
+    margin-top: 10VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 2.5VW;
+    font-weight: bold;
+    color: white;
+}
+
+.texto_2
+{
+    position: absolute;
+    margin-top: 18VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color:white;
+}
+
+.texto_3
+{
+    position: absolute;
+    margin-top: 22VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color:white;
+}
+
+.texto_4
+{
+    position: absolute;
+    margin-top: 26VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color:white;
+}
+
+.texto_5
+{
+    position: absolute;
+    margin-top: 30VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color:white;
+}
+
+.texto_6
+{
+    position: absolute;
+    margin-top: 34VW;
+    margin-left: 42.5VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color:white;
+}
+
+.texto_7
+{
+    position: absolute;
+    margin-top: 14VW;
+    margin-left: 10VW;
+    font-family: tahoma;
+    font-size: 3VW;
+    font-weight: bold;
+    color:white;
+}
+
+#nome_usuario
+{
+    position: absolute;
+    margin-top: 21VW;
+    margin-left: 7.8VW;
+    width: 25VW;
+    height: 4VH;
+    font-size: 1.3VW;
+}
+
+#email
+{
+    position: absolute;
+    margin-top: 26VW;
+    margin-left: 7.8VW;
+    width: 25VW;
+    height: 4VH;
+    font-size: 1.3VW;
+}
+
+#senha
+{
+    position: absolute;
+    margin-top: 31VW;
+    margin-left: 7.8VW;
+    width: 25VW;
+    height: 4VH;
+    font-size: 1.3VW;
+}
+
+#confirmacao_senha
+{
+    position: absolute;
+    margin-top: 36VW;
+    margin-left: 7.8VW;
+    width: 25VW;
+    height: 4VH;
+    font-size: 1.3VW;
+}
+
+.cadastro
+{
+    position: absolute;
+    margin-top: 41VW;
+    margin-left: 7.8VW;
+    width: 25VW;
+    height: 8VH;
+    font-size: 1.5VW;
+    background-color: green;
+    border-color: green;
+}
+
+.b_home
+{
+    position: absolute;
+    margin-top: 0.3VW;
+    margin-left: 40VW;
+    width: 12VW;
+    height: 16.8VH;
+    font-size: 1.5VW;
+    font-family: tahoma;
+    color:white;
+    background-color: #0F3C85;
+    border-style: none;
+}
+
+#s_filmes
+{
+    position: absolute;
+    margin-top: 0.3VW;
+    margin-left: 52VW;
+    width: 12VW;
+    height: 16.8VH;
+    font-size: 1.5VW;
+    font-family: tahoma;
+    color:white;
+    background-color: #0F3C85;
+    border-style: none;
+}
+
+.b_login
+{
+    position: absolute;
+    margin-top: 0.3VW;
+    margin-left: 64VW;
+    width: 12VW;
+    height: 16.8VH;
+    font-size: 1.5VW;
+    font-family: tahoma;
+    color:white;
+    background-color: #0F3C85;
+    border-style: none;
+}
+
+.b_cadastro
+{
+    position: absolute;
+    margin-top: 0.3VW;
+    margin-left: 76VW;
+    width: 12VW;
+    height: 16.8VH;
+    font-size: 1.5VW;
+    font-family: tahoma;
+    color:white;
+    background-color: #0F3C85;
+    border-style: none;
+}
+
+.b_meus_filmes
+{
+    position: absolute;
+    margin-top: 0.3VW;
+    margin-left: 88VW;
+    width: 12VW;
+    height: 16.8VH;
+    font-size: 1.5VW;
+    font-family: tahoma;
+    color:white;
+    background-color: #0F3C85;
+    border-style: none;
+}
