@@ -14,7 +14,7 @@
     position: absolute;
     margin-top: 0VW;
     margin-left: 0VH;
-    background-color: rgb(6, 25, 107);
+    background-color: rgb(91, 5, 130);
 }
 
 .logo
@@ -40,7 +40,7 @@
     position: absolute;
     margin-top: 13VW;
     margin-left: 6.5VW;
-    background-color:  rgb(6, 25, 107);
+    background-color: rgb(91, 5, 130);
 }
 
 .texto_1
@@ -51,7 +51,7 @@
     font-family: Tahoma;
     font-size: 2.5VW;
     font-weight: bold;
-    color: rgb(91, 5, 130);
+    color: rgb(6, 25, 107);
 }
 
 .texto_2
@@ -62,7 +62,7 @@
     font-family: Tahoma;
     font-size: 3.5VW;
     font-weight: bold;
-    color: rgb(91, 5, 130);
+    color: rgb(6, 25, 107);
 }
 
 .foto_1
@@ -84,33 +84,33 @@
 .input
 {
     position: relative;
-    margin-top: 2.5VW;
+    margin-top: 4VW;
     margin-left: 1.5VW;
     width: 25VW;
     height: 4VH;
     font-size: 1.3VW;
 }
 
-.link_1
+.logar
 {
     position: relative;
     margin-top: 5VW;
-    margin-left: 3.5VW;
-    font-family: Tahoma;
-    font-size: 1.5VW;
-    color: white;
-}
-
-.cadastro
-{
-    position: relative;
-    margin-top: 3VW;
     margin-left: 1.5VW;
     width: 25VW;
     height: 8VH;
     font-size: 1.5VW;
-    background-color: rgb(91, 5, 130);
-    border-color: rgb(6, 25, 107);
+    background-color: rgb(6, 25, 107);
+    border-color: rgb(91, 5, 130);
+}
+
+.link_1
+{
+    position: relative;
+    margin-top: 5VW;
+    margin-left: 0.2VW;
+    font-family: Tahoma;
+    font-size: 1.5VW;
+    color: white;
 }
 
 .menu
@@ -131,7 +131,7 @@
 {
     position: absolute;
     text-decoration: none;
-    color: rgb(91, 5, 130);
+    color: rgb(6, 25, 107);
     font-size: 2VW;
     font-family: tahoma;
 }
