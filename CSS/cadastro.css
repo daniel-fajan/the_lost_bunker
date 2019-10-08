@@ -1,10 +1,17 @@
 *{margin: 0}
 
+.plano_fundo
+{
+    width: 100VW;
+    height: 100VH;
+    position: fixed;
+    filter: brightness(40%);
+}
+
 .fundo
 {
     width: 100VW;
     height: 100VH;
-    background-color: rgb(0, 0, 0);
 }
 
 .cabeçalho
@@ -33,86 +40,6 @@
     margin-left: 12VW;
 }
 
-.login
-{
-    width: 28VW;
-    height: 70VH;
-    position: absolute;
-    margin-top: 13VW;
-    margin-left: 6.5VW;
-    background-color:  rgb(6, 25, 107);
-}
-
-.texto_1
-{
-    position: relative;
-    margin-top: 0VW;
-    margin-left: 5VW;
-    font-family: Tahoma;
-    font-size: 2.5VW;
-    font-weight: bold;
-    color: rgb(91, 5, 130);
-}
-
-.texto_2
-{
-    position: absolute;
-    margin-top: 14VW;
-    margin-left: 40VW;
-    font-family: Tahoma;
-    font-size: 3.5VW;
-    font-weight: bold;
-    color: rgb(91, 5, 130);
-}
-
-.foto_1
-{
-    position: absolute;
-    margin-top: 16VW;
-    margin-left: 75VW;
-    width: 22VW;
-}
-
-.foto_2
-{
-    position: absolute;
-    margin-top: 18VW;
-    margin-left: 50VW;
-    width: 32VW;
-}
-
-.input
-{
-    position: relative;
-    margin-top: 2.5VW;
-    margin-left: 1.5VW;
-    width: 25VW;
-    height: 4VH;
-    font-size: 1.3VW;
-}
-
-.link_1
-{
-    position: relative;
-    margin-top: 5VW;
-    margin-left: 3.5VW;
-    font-family: Tahoma;
-    font-size: 1.5VW;
-    color: white;
-}
-
-.cadastro
-{
-    position: relative;
-    margin-top: 3VW;
-    margin-left: 1.5VW;
-    width: 25VW;
-    height: 8VH;
-    font-size: 1.5VW;
-    background-color: rgb(91, 5, 130);
-    border-color: rgb(6, 25, 107);
-}
-
 .menu
 {
     position: absolute;
@@ -122,7 +49,7 @@
     height: 20VH;
 }
 
-.menu a:hover
+.fundo a:hover
 {
     color: black;
 }
@@ -134,6 +61,7 @@
     color: rgb(91, 5, 130);
     font-size: 2VW;
     font-family: tahoma;
+    font-weight: bold;
 }
 
 .link_home
@@ -152,4 +80,102 @@
 {
     margin-top: 3.5VW;
     margin-left: 85VW;
+}
+
+.login
+{
+    width: 28VW;
+    height: 70VH;
+    position: absolute;
+    margin-top: 12.5VW;
+    margin-left: 6VW;
+    background-color: rgb(6, 25, 107);
+    border-style: solid;
+    border-color: rgb(91, 5, 130);
+    border-width: 0.4VW;
+    border-radius: 2VW;
+}
+
+.texto_1
+{
+    position: relative;
+    margin-top: 0VW;
+    margin-left: 5VW;
+    font-family: Tahoma;
+    font-size: 2.5VW;
+    font-weight: bold;
+    color: rgb(91, 5, 130);
+}
+
+.texto_2
+{
+    position: absolute;
+    margin-top: 11VW;
+    margin-left: 40VW;
+    font-family: Tahoma;
+    font-size: 3.5VW;
+    font-weight: bold;
+    color: rgb(91, 5, 130);
+}
+
+.foto_1
+{
+    position: absolute;
+    margin-top: 17VW;
+    margin-left: 75VW;
+    width: 22VW;
+}
+
+.foto_2
+{
+    position: absolute;
+    margin-top: 20VW;
+    margin-left: 40VW;
+    width: 32VW;
+}
+
+.input
+{
+    position: relative;
+    margin-top: 2.5VW;
+    margin-left: 1.5VW;
+    width: 25VW;
+    height: 4VH;
+    font-size: 1.3VW;
+    border-style: solid;
+    border-color: rgb(91, 5, 130);
+    border-radius: 0.5VW;
+    border-width: 0.3VW;
+}
+
+.cadastro
+{
+    position: relative;
+    margin-top: 3VW;
+    margin-left: 1.5VW;
+    width: 25VW;
+    height: 8VH;
+    font-size: 1.5VW;
+    background-color: rgb(91, 5, 130);
+    border-color: black;
+    border-radius: 1VW;
+}
+
+.texto_3
+{
+    position: relative;
+    margin-top: 5VW;
+    margin-left: 1.7VW;
+    font-family: Tahoma;
+    font-size: 1.4VW;
+    color: white;
+}
+
+.link_1
+{
+    text-decoration: none;
+    color: rgb(91, 5, 130);
+    font-size: 1.4VW;
+    font-family: tahoma;
+    font-weight: bold;
 }
