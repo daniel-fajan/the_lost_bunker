@@ -109,7 +109,7 @@
 .texto_2
 {
     position: absolute;
-    margin-top: 12VW;
+    margin-top: 11VW;
     margin-left: 3VW;
     font-family: Tahoma;
     font-size: 3.5VW;
@@ -177,7 +177,7 @@
     text-decoration: none;
     color: rgb(26, 26, 26);
     font-size: 1.4VW;
-    margin-left: 7.8VW;
+    margin-left: 8VW;
     font-family: tahoma;
     font-weight: bold;
 }

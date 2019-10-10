@@ -164,9 +164,9 @@
 
 .texto_3
 {
-    position: relative;
-    margin-top: 5VW;
-    margin-left: 1.7VW;
+    position: absolute;
+    margin-top: 7VW;
+    margin-left: -24.5VW;
     font-family: Tahoma;
     font-size: 1.4VW;
     color: white;
