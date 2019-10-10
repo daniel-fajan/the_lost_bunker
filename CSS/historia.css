@@ -10,8 +10,8 @@
 {
     width: 100VW;
     height: 100VH;
-    filter: brightness(40%);
     position: fixed;
+    filter: brightness(30%);
 }
 
 .cabeçalho
@@ -21,7 +21,7 @@
     position: absolute;
     margin-top: 0VW;
     margin-left: 0VH;
-    background-color: rgb(6, 25, 107);
+    background-color: rgba(0, 5, 27, 0.65);
 }
 
 .logo
@@ -43,22 +43,24 @@
 .menu
 {
     position: absolute;
-    margin-top: 0VW;
-    margin-left: 0VW;
-    width: 100VW;
-    height: 20VH;
+    margin-top: 3.5VW;
+    margin-left: 56VW;
+    width: 40VW;
+    height: 22VH;
 }
 
-.fundo a:hover
+.menu a:hover
 {
-    color: black;
+    color: rgb(0, 5, 27);
+    background-color: white;
+    border-radius: 1VW;
 }
 
 .menu a
 {
     position: absolute;
     text-decoration: none;
-    color: rgb(91, 5, 130);
+    color: white;
     font-size: 2VW;
     font-family: tahoma;
     font-weight: bold;
@@ -66,18 +68,15 @@
 
 .link_home
 {
-    margin-top: 3.5VW;
-    margin-left: 58VW;
+    margin-left: 0VW;
 }
 
 .link_historia
 {
-    margin-top: 3.5VW;
-    margin-left: 70VW;
+    margin-left: 11VW;
 }
 
 .link_login
 {
-    margin-top: 3.5VW;
-    margin-left: 85VW;
+    margin-left: 26VW;
 }

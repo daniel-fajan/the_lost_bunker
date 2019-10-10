@@ -1,17 +1,17 @@
 *{margin: 0}
 
+.fundo
+{
+    width: 100VW;
+    height: 100VH;
+}
+
 .plano_fundo
 {
     width: 100VW;
     height: 100VH;
     position: fixed;
-    filter: brightness(40%);
-}
-
-.fundo
-{
-    width: 100VW;
-    height: 100VH;
+    filter: brightness(30%);
 }
 
 .cabeçalho
@@ -21,7 +21,7 @@
     position: absolute;
     margin-top: 0VW;
     margin-left: 0VH;
-    background-color: rgb(6, 25, 107);
+    background-color: rgba(0, 5, 27, 0.65);
 }
 
 .logo
@@ -43,22 +43,24 @@
 .menu
 {
     position: absolute;
-    margin-top: 0VW;
-    margin-left: 0VW;
-    width: 100VW;
-    height: 20VH;
+    margin-top: 3.5VW;
+    margin-left: 56VW;
+    width: 40VW;
+    height: 22VH;
 }
 
-.fundo a:hover
+.menu a:hover
 {
-    color: black;
+    color: rgb(0, 5, 27);
+    background-color: white;
+    border-radius: 1VW;
 }
 
 .menu a
 {
     position: absolute;
     text-decoration: none;
-    color: rgb(91, 5, 130);
+    color: white;
     font-size: 2VW;
     font-family: tahoma;
     font-weight: bold;
@@ -66,20 +68,17 @@
 
 .link_home
 {
-    margin-top: 3.5VW;
-    margin-left: 58VW;
+    margin-left: 0VW;
 }
 
 .link_historia
 {
-    margin-top: 3.5VW;
-    margin-left: 70VW;
+    margin-left: 11VW;
 }
 
 .link_login
 {
-    margin-top: 3.5VW;
-    margin-left: 85VW;
+    margin-left: 26VW;
 }
 
 .login
@@ -89,9 +88,9 @@
     position: absolute;
     margin-top: 12.5VW;
     margin-left: 6VW;
-    background-color: rgb(6, 25, 107);
+    background-color: rgb(0, 5, 27, 0.65);
     border-style: solid;
-    border-color: rgb(91, 5, 130);
+    border-color: black;
     border-width: 0.4VW;
     border-radius: 2VW;
 }
@@ -104,7 +103,7 @@
     font-family: Tahoma;
     font-size: 2.5VW;
     font-weight: bold;
-    color: rgb(91, 5, 130);
+    color: white;
 }
 
 .texto_2
@@ -115,21 +114,21 @@
     font-family: Tahoma;
     font-size: 3.5VW;
     font-weight: bold;
-    color: rgb(91, 5, 130);
+    color: white;
 }
 
 .foto_1
 {
     position: absolute;
-    margin-top: 17VW;
-    margin-left: 75VW;
+    margin-top: 16VW;
+    margin-left: 72VW;
     width: 22VW;
 }
 
 .foto_2
 {
     position: absolute;
-    margin-top: 20VW;
+    margin-top: 18VW;
     margin-left: 40VW;
     width: 32VW;
 }
@@ -143,7 +142,7 @@
     height: 4VH;
     font-size: 1.3VW;
     border-style: solid;
-    border-color: rgb(91, 5, 130);
+    border-color: white;
     border-radius: 0.5VW;
     border-width: 0.3VW;
 }
@@ -151,13 +150,15 @@
 .cadastro
 {
     position: relative;
-    margin-top: 3VW;
+    margin-top: 2VW;
     margin-left: 1.5VW;
     width: 25VW;
     height: 8VH;
     font-size: 1.5VW;
-    background-color: rgb(91, 5, 130);
+    color: white;
+    background-color: rgb(0, 5, 27, 0.65);
     border-color: black;
+    border-width: 0.2VW;
     border-radius: 1VW;
 }
 
@@ -174,8 +175,13 @@
 .link_1
 {
     text-decoration: none;
-    color: rgb(91, 5, 130);
+    color: rgb(26, 26, 26);
     font-size: 1.4VW;
     font-family: tahoma;
     font-weight: bold;
+}
+
+.link_1:hover
+{
+    color: white;
 }
