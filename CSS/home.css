@@ -4,7 +4,7 @@
 {
     width: 100VW;
     height: 100VH;
-    background-color: black;
+    background-color: rgb(0, 5, 27);
 }
 
 .cabeçalho
@@ -74,11 +74,10 @@
     margin-left: 26VW;
 }
 
-* {mbox-sizing:border-box}
+* {box-sizing:border-box}
 
-.div_slides
+.slides
 {
-  
   position: absolute;
   margin-top: 9.6VW;
   margin-left: 0VW;
@@ -86,36 +85,45 @@
   height: 80VH;
 }
 
-.slide
-{
-  display: none;
-}
-
 .voltar, .avancar
 {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  margin-top: -22px;
+  width: 5VW;
   padding: 16px;
   color: white;
+  background-color: rgba(0, 5, 27, 0.65);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  border-color: rgba(0, 5, 27, 0.65);
   user-select: none;
+}
+
+.voltar
+{
+  position: absolute;
+  margin-left: 0%;
 }
 
 .avancar
 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  position: absolute;
+  margin-left: 95%;
 }
 
 .voltar:hover, .avancar:hover
 {
   background-color: rgba(0,0,0,0.8);
+}
+
+#foto_slide
+{
+  width: 100%;
+  height: 100%;
+  filter: brightness(40%);
 }
 
 .fade
@@ -128,12 +136,12 @@
 
 @-webkit-keyframes fade
 {
-  from {opacity: .4}
+  from {opacity: .2}
   to {opacity: 1}
 }
 
 @keyframes fade
 {
-  from {opacity: .4}
+  from {opacity: .2}
   to {opacity: 1}
 }

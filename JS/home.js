@@ -1,58 +1,81 @@
 
-var slideIndex = 1;
+var contador = 1;
 
-mostrar_slide(slideIndex);
-
-
-function trocar_slide(n)
+function trocar_slide_a()
 {
-  mostrar_slide(slideIndex += n);
+  contador ++;
+
+  if (contador > 3)
+  {
+    contador = 1;
+  }
+
+  if (contador == 1)
+  {
+    foto_slide.src = '../Imagens/bunker1.jpg';
+  }
+
+  if (contador == 2)
+  {
+    foto_slide.src = '../Imagens/floresta1.jpg';
+  }
+
+  if (contador == 3)
+  {
+    foto_slide.src = '../Imagens/cidade3.jpg';
+  }
 }
 
-
-function currentSlide(n)
+function trocar_slide_v()
 {
-  mostrar_slide(slideIndex = n);
+  contador --;
+
+  if (contador < 1)
+  {
+    contador = 3;
+  }
+
+  if (contador == 1)
+  {
+    foto_slide.src = '../Imagens/bunker1.jpg';
+  }
+
+  if (contador == 2)
+  {
+    foto_slide.src = '../Imagens/floresta1.jpg';
+  }
+
+  if (contador == 3)
+  {
+    foto_slide.src = '../Imagens/cidade3.jpg';
+  }
 }
 
-function showSlides(n)
+function passar_slide_tempo()
 {
-  var i;
-  var slides = document.getElementsByClassName("slide");
-
-  if (n > slides.length)
+  setInterval (function()
   {
-    slideIndex = 1
-  }
+    if (contador > 3)
+    {
+      contador = 1;
+    }
 
-  if (n < 1)
-  {
-    slideIndex = slides.length
-  }
+    if (contador == 1)
+    {
+      foto_slide.src = '../Imagens/bunker1.jpg';
+    }
 
-  for (i = 0; i < slides.length; i++)
-  {
-      slides[i].style.display = "none";
-  }
+    if (contador == 2)
+    {
+      foto_slide.src = '../Imagens/floresta1.jpg';
+    }
 
-  slides[slideIndex-1].style.display = "block";
+    if (contador == 3)
+    {
+      foto_slide.src = '../Imagens/cidade3.jpg';
+    }
+
+    contador ++;
+
+  }, 3000);
 }
-
-
-
-
-/*
-var slideIndex = 0;
-showSlides();
-
-function showSlide() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}s

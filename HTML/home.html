@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../CSS/home.css">
     <script type="text/javascript" src="../JS/home.js"></script>
 </head>
-<body>
+<body onload = "passar_slide_tempo()">
 
 <div class="fundo">
 
@@ -28,35 +28,14 @@
 
     </div>
 
-    <div class = "div_slides">
+    <div class = "slides fade">
 
-        <div class = "slide">
-
-            <img src = "../Imagens/bunker6.jpg" style = "width: ">
-            <div class = "text">Caption Text</div>
-
-        </div>
-
-        <div class="slide">
-
-            <img src = "../Imagens/bunker7.jpg" style = "width: ">
-            <div class = "text">Caption Two</div>
-
-        </div>
-
-        <div class = "slide">
-
-            <img src = "../Imagens/cidade3.jpg" style="width: ">
-            <div class = "text">Caption Three</div>
-
-        </div>
-
-        <a class = "voltar" onclick = "trocar_slide(-1)">&#10094;</a>
-        <a class = "avancar" onclick = "trocar_slide(1)">&#10095;</a>
+        <img id = "foto_slide" src = "../Imagens/bunker1.jpg">
 
     </div>
 
-</div>
+    <button class = "voltar" onclick = "trocar_slide_v()">&#10094;</button>
+    <button class = "avancar" onclick = "trocar_slide_a()">&#10095;</button>
 
 </div>
 
