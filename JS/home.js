@@ -13,16 +13,19 @@ function trocar_slide_a()
   if (contador == 1)
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
+    texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
+    texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
+    texto_slide.innerHTML = 'as mascaras caem, os amigos se traem';
   }
 }
 
@@ -38,16 +41,19 @@ function trocar_slide_v()
   if (contador == 1)
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
+    texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
+    texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
+    texto_slide.innerHTML = 'as mascaras caem, os amigos se traem'; 
   }
 }
 
@@ -63,16 +69,19 @@ function passar_slide_tempo()
     if (contador == 1)
     {
       foto_slide.src = '../Imagens/bunker1.jpg';
+      texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
     }
 
     if (contador == 2)
     {
       foto_slide.src = '../Imagens/floresta1.jpg';
+      texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
     }
 
     if (contador == 3)
     {
       foto_slide.src = '../Imagens/cidade3.jpg';
+      texto_slide.innerHTML = 'as mascaras caem, os amigos se traem';
     }
 
     contador ++;
