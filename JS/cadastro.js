@@ -20,7 +20,7 @@ function funcao_cadastrar()
     }
     if ((nome_usuario.value.length >= 3) && (nome_usuario.value != "") && (email.value != "") && (senha.value.length >= 5) && (senha.value != "") && (confirmacao_senha.value != "") && (confirmacao_senha.value == senha.value) && (email.value.endsWith('.com') || email.value.endsWith('.com.br')) && (email.value.indexOf('@') >= 0) && (email.value.length >= 9))
     {
-        alert (`Parabéns! Cadastro concluído com sucesso!`);
+        window.location.href = "../HTML/login.html"
     }
     else
     {

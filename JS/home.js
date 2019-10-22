@@ -13,19 +13,22 @@ function trocar_slide_a()
   if (contador == 1)
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
-    texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
+    texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
+    texto_slide.style.marginLeft = '-88%';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
-    texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
+    texto_slide.innerHTML = 'O mais jogado do Brasil';
+    texto_slide.style.marginLeft = '-74%';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
-    texto_slide.innerHTML = 'as mascaras caem, os amigos se traem';
+    texto_slide.innerHTML = 'Faça sua conta grátis agora';
+    texto_slide.style.marginLeft = '-78%';
   }
 }
 
@@ -41,19 +44,22 @@ function trocar_slide_v()
   if (contador == 1)
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
-    texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
+    texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
+    texto_slide.style.marginLeft = '-88%';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
-    texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
+    texto_slide.innerHTML = 'O mais jogado do Brasil';
+    texto_slide.style.marginLeft = '-74%';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
-    texto_slide.innerHTML = 'as mascaras caem, os amigos se traem'; 
+    texto_slide.innerHTML = 'Faça sua conta grátis agora';
+    texto_slide.style.marginLeft = '-78%';
   }
 }
 
@@ -69,19 +75,22 @@ function passar_slide_tempo()
     if (contador == 1)
     {
       foto_slide.src = '../Imagens/bunker1.jpg';
-      texto_slide.innerHTML = 'lorem ipsum dolor sit amet decoder fenur termna';
+      texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
+      texto_slide.style.marginLeft = '-88%';
     }
 
     if (contador == 2)
     {
       foto_slide.src = '../Imagens/floresta1.jpg';
-      texto_slide.innerHTML = 'os castelos caem tudo na vida vem como a vida vai';
+      texto_slide.innerHTML = 'O mais jogado do Brasil';
+      texto_slide.style.marginLeft = '-74%';
     }
 
     if (contador == 3)
     {
       foto_slide.src = '../Imagens/cidade3.jpg';
-      texto_slide.innerHTML = 'as mascaras caem, os amigos se traem';
+      texto_slide.innerHTML = 'Faça sua conta grátis agora';
+      texto_slide.style.marginLeft = '-78%';
     }
 
     contador ++;

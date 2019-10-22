@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The lost BUNKER</title>
+    <link rel="stylesheet" href="../CSS/jogo.css">
+    <script type = "text/Javascript" src = "../JS/jogo.js"></script>
+</head>
+<body>
+    
+    <div class = "fundo">
+
+        <div class = "conteudo">
+
+            <div class = "escolha">
+
+                Digite o nome do personagem: <input id = "nome_personagem" placeholder = "Nome do personagem" autofocus onkeyup = "escolher()"> <br><br>
+                Escolha seu personagem
+                
+                <select id="personagem" onchange = "escolher()">
+
+                    <option value="">--personagem--</option>
+                    <option value="homem">HOMEM</option>
+                    <option value="mulher">MULHER</option>
+
+                </select>
+                <br><br>
+                <img id = "foto_personagem" style = "width: 400px">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
