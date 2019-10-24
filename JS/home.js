@@ -14,21 +14,21 @@ function trocar_slide_a()
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
     texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
-    texto_slide.style.marginLeft = '-88%';
+    texto_slide.style.marginLeft = '12%';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
     texto_slide.innerHTML = 'O mais jogado do Brasil';
-    texto_slide.style.marginLeft = '-74%';
+    texto_slide.style.marginLeft = '27%';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
     texto_slide.innerHTML = 'Faça sua conta grátis agora';
-    texto_slide.style.marginLeft = '-78%';
+    texto_slide.style.marginLeft = '22%';
   }
 }
 
@@ -45,21 +45,21 @@ function trocar_slide_v()
   {
     foto_slide.src = '../Imagens/bunker1.jpg';
     texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
-    texto_slide.style.marginLeft = '-88%';
+    texto_slide.style.marginLeft = '12%';
   }
 
   if (contador == 2)
   {
     foto_slide.src = '../Imagens/floresta1.jpg';
     texto_slide.innerHTML = 'O mais jogado do Brasil';
-    texto_slide.style.marginLeft = '-74%';
+    texto_slide.style.marginLeft = '27%';
   }
 
   if (contador == 3)
   {
     foto_slide.src = '../Imagens/cidade3.jpg';
     texto_slide.innerHTML = 'Faça sua conta grátis agora';
-    texto_slide.style.marginLeft = '-78%';
+    texto_slide.style.marginLeft = '22%';
   }
 }
 
@@ -76,21 +76,21 @@ function passar_slide_tempo()
     {
       foto_slide.src = '../Imagens/bunker1.jpg';
       texto_slide.innerHTML = 'Jogue online de onde e quando quiser';
-      texto_slide.style.marginLeft = '-88%';
+      texto_slide.style.marginLeft = '12%';
     }
 
     if (contador == 2)
     {
       foto_slide.src = '../Imagens/floresta1.jpg';
       texto_slide.innerHTML = 'O mais jogado do Brasil';
-      texto_slide.style.marginLeft = '-74%';
+      texto_slide.style.marginLeft = '27%';
     }
 
     if (contador == 3)
     {
       foto_slide.src = '../Imagens/cidade3.jpg';
       texto_slide.innerHTML = 'Faça sua conta grátis agora';
-      texto_slide.style.marginLeft = '-78%';
+      texto_slide.style.marginLeft = '22%';
     }
 
     contador ++;
