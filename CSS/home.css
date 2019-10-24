@@ -82,10 +82,10 @@
 .slides
 {
   position: absolute;
-  margin-top: 9.6VW;
+  margin-top: 10VW;
   margin-left: 0VW;
   width: 100VW;
-  height: 80VH;
+  height: 78%;
 }
 
 .voltar, .avancar
@@ -129,7 +129,7 @@
   font-size: 4VW;
   color: white;
   font-weight: bold;
-  margin-top: -26%;
+  margin-top: -24.5%;
   margin-left: 12%;
 }
 
