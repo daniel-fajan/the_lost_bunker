@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="../Imagens/logo_imagem.png">
-    <title>The lost BUNKER - Home</title>
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/home.css">
     <script type="text/javascript" src="../JS/home.js"></script>
+    <link rel="shortcut icon" href="../Imagens/logo_imagem.png">
+    <title>The lost BUNKER - Home</title>
+
 </head>
 <body onload = "passar_slide_tempo()">
 
-<div class="fundo">
+    <div class="fundo">
 
-    <div class="cabeçalho">
-    
-        <img class="logo" src="../Imagens/logo_imagem_branco.png">
-        <img class="logo_2" src="../Imagens/logo_nome_branco.png">
-
-        <nav class="menu">
-
-            <a class="link_home" href="./home.html">HOME</a>
-            <a class="link_historia" href="./historia.html">HISTÓRIA</a>
-            <a class="link_login" href="./cadastro.html">CONECTE-SE</a>
+        <div class="cabeçalho">
         
-        </nav>
+            <img class="logo" src="../Imagens/logo_imagem_branco.png">
+            <img class="logo_2" src="../Imagens/logo_nome_branco.png">
+
+            <nav class="menu">
+
+                <a class="link_home" href="./home.html">HOME</a>
+                <a class="link_historia" href="./historia.html">HISTÓRIA</a>
+                <a class="link_login" href="./cadastro.html">CONECTE-SE</a>
+            
+            </nav>
+
+        </div>
+
+        <div class = "slides">
+
+            <img class = "fade" id = "foto_slide" src = "../Imagens/bunker1.jpg">
+            <div class = "texto_slide" id = "texto_slide">Jogue online de onde e quando quiser</div>
+
+        </div>
+
+        <button class = "voltar" onclick = "trocar_slide_v()">&#10094;</button>
+        <button class = "avancar" onclick = "trocar_slide_a()">&#10095;</button>
 
     </div>
-
-    <div class = "slides">
-
-        <img class = "fade" id = "foto_slide" src = "../Imagens/bunker1.jpg">
-        <span id = "texto_slide">Jogue online de onde e quando quiser</span>
-
-    </div>
-
-    <button class = "voltar" onclick = "trocar_slide_v()">&#10094;</button>
-    <button class = "avancar" onclick = "trocar_slide_a()">&#10095;</button>
-
-</div>
 
 </body>
 </html>
