@@ -12,36 +12,21 @@
     <title>The lost BUNKER</title>
 
 </head>
-<body>
+<body onload = "info()">
     
     <div class = "fundo">
 
         <div class = "conteudo">
 
-            <div class = "escolha">
+            <img id = "foto_personagem" style = "width: 400px">
 
-                Digite o nome do personagem: <input id = "nome_personagem" placeholder = "Nome do personagem" autofocus onkeyup = "escolher()"> <br><br>
-                Escolha seu personagem
-                
-                <select id="personagem" onchange = "escolher() & confirmar()">
-
-                    <option value="">--personagem--</option>
-                    <option value="homem">HOMEM</option>
-                    <option value="mulher">MULHER</option>
-
-                </select>
-                <br><br>
-                <img id = "foto_personagem" style = "width: 400px">
-
-            </div>
-
-            <div id = "div_introducao" class = "introducao">
+            <div class = "introducao">
 
                 <p>
-                    <span id = "nome_escolhido1"></span> é um(a) humano(a) que nasceu após a Terceira Grande Guerra, ele(a) sempre ouvia histórias de seu pai de como tudo era antes. Com a falta de suprimentos no bunker de sua família, seu pai saiu para procurar alimentos e medicamentos e nunca mais voltou. Desde entao, <span id = "nome_escolhido2"></span> vive só no bunker, saindo para caçar e coletar suprimentos sem mais ninguém.<br><br> Certo dia vasculhando um bunker abandonado, encontrou uma caixa com vários artigos antigos, da época da guerra. Dentre esses artefatos, encontrou um mapa oficial da República da Asunia, onde havia a localização do bunker. <br><br> Vai se arriscar nessa aventura?
+                <span id = "nome_escolhido1"></span> é um(a) humano(a) que nasceu após a Terceira Grande Guerra, ele(a) sempre ouvia histórias de seu pai de como tudo era antes. Com a falta de suprimentos no bunker de sua família, seu pai saiu para procurar alimentos e medicamentos e nunca mais voltou. Desde entao, <span id = "nome_escolhido2"></span> vive só no bunker, saindo para caçar e coletar suprimentos sem mais ninguém.<br><br> Certo dia vasculhando um bunker abandonado, encontrou uma caixa com vários artigos antigos, da época da guerra. Dentre esses artefatos, encontrou um mapa oficial da República da Asunia, onde havia a localização de um bunker secreto, o mesmo das histórias que <span id = "nome_escolhido3"></span> ouvia. <br><br> Vai se arriscar nessa aventura?
                 </p>
 
-                <button class = "botao" onclick = "escolher() & avancar()">VAMOS LÁ!</button>
+                <button onclick = "avancar()">VAMOS LÁ!</button>
 
             </div>
 

@@ -1,32 +1,31 @@
 
-.escolha
+#foto_personagem
 {
     position: absolute;
-    font-family: tahoma;
-    font-size: 1.5VW;
 }
 
 .introducao
 {
-    display: none;
     position: absolute;
     width: 40%;
-    height: 80%;
+    height: auto;
     margin-left: 45%;
-    margin-top: 6%;
+    margin-top: 2%;
     text-align: justify;
     font-size: 1.8VW;
+    color: rgb(0, 5, 27);
 }
 
-.botao
+button
 {
+    position: absolute;
     background-color: rgb(0, 5, 27);
     color: white;
     border-style: none;
-    width: 8VW;
+    width: auto;
     height: 3VW;
     border-radius: 2VW;
     font-size: 1.3VW;
-    margin-top: 1VW;
-    margin-left: 40%;
+    margin-top: -3VW;
+    margin-left: 25VW;
 }

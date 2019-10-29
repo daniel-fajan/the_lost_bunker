@@ -1,27 +1,24 @@
 
+var var_nome = '';
+var var_sexo = '';
+var var_email = '';
+var var_senha = '';
 
 function funcao_cadastrar()
 {
-    if (nome_usuario.value == "" || nome_usuario.value.length < 3)
+    if ((nome_usuario.value.length >= 3) && (nome_usuario.value != "") && (email.value != "") && (senha.value.length >= 5) && (senha.value != "") && (confirmacao_senha.value != "") && (confirmacao_senha.value == senha.value) && (email.value.endsWith('.com') || email.value.endsWith('.com.br')) && (email.value.indexOf('@') >= 0) && (email.value.length >= 9) && (sexo.value != ''))
     {
-        alert (`Insira um nome de usuário válido para continuar`);
-    }
-    if (email.value == "" || (email.value.indexOf('@') == -1) || (email.value.endsWith('.com.br') == -1) || (email.value.indexOf('.com') == -1))
-    {
-        alert (`Insira um e-mail válido para continuar`);
-    }
-    if (senha.value == "" || senha.value.length < 5)
-    {
-        alert (`Insira uma senha válida para continuar`);
-    }
-    if (confirmacao_senha.value == "" || confirmacao_senha.value != senha.value)
-    {
-        alert ("As senhas não coincidem");
-    }
-    if ((nome_usuario.value.length >= 3) && (nome_usuario.value != "") && (email.value != "") && (senha.value.length >= 5) && (senha.value != "") && (confirmacao_senha.value != "") && (confirmacao_senha.value == senha.value) && (email.value.endsWith('.com') || email.value.endsWith('.com.br')) && (email.value.indexOf('@') >= 0) && (email.value.length >= 9))
-    {
+        var_nome = nome_usuario.value;
+        var_sexo = sexo.value;
+        var_email = email.value;
+        var_senha = senha.value;
+
+        sessionStorage.nome = var_nome;
+        sessionStorage.sexo = var_sexo;
+
         window.location.href = "../HTML/login.html"
     }
+
     else
     {
         alert ("Informações incorretas! Revise os campos")
