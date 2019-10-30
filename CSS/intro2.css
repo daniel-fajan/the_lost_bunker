@@ -1,0 +1,102 @@
+
+.titulo, .rebocador, .resistor
+{
+    position: absolute;
+    font-family: tahoma;
+    color: rgb(0, 5, 27);
+    font-weight: bold;
+}
+
+.titulo
+{
+    font-size: 3VW;
+    margin-left: 24%;
+}
+
+.rebocador, .resistor
+{
+    font-size: 2VW;
+    cursor: pointer;
+    background-color: rgb(0, 5, 27);
+    border: solid;
+    border-radius: 1VW;
+    color: white;
+    padding: 0.3VW;
+}
+
+.rebocador
+{
+    margin-left: 25VW;
+    margin-top: 8VW;
+}
+
+.resistor
+{
+    margin-left: 53VW;
+    margin-top: 8VW;
+}
+
+.espec_rebocador, .espec_resistor
+{
+    position: absolute;
+    display: none;
+    width: 80VW;
+    height: 60VH;
+    background-color: blue;
+    margin-left: 5VW;
+    margin-top: 12VW;
+}
+
+.arma_rb
+{
+    position: absolute;
+    width: 25VW;
+    margin-top: 2VW;
+}
+
+.espada_rb
+{
+    position: absolute;
+    height: 18VW;
+    margin-top: 11VW;
+    margin-left: -1VW;
+}
+
+.arma_rs
+{
+    position: absolute;
+    width: 20VW;
+    margin-top: 2VW;
+    margin-left: 1VW;
+}
+
+.espada_rs
+{
+    position: absolute;
+    width: 24VW;
+    margin-top: 18VW;
+}
+
+.desc_reboc, .desc_resis
+{
+    position: absolute;
+    font-size: 1.8VW;
+    font-family: tahoma;
+    color: rgb(0, 5, 27);
+    height: auto;
+    width: 20VW;
+    margin-left: 30VW;
+    margin-top: 2VW;
+}
+
+.atributos_rb, .atributos_rs
+{
+    position: absolute;
+    font-size: 2.5VW;
+    font-family: tahoma;
+    color: rgb(0, 5, 27);
+    height: auto;
+    width: 20VW;
+    margin-left: 60VW;
+    margin-top: 9VW;
+}
