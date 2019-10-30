@@ -78,6 +78,7 @@
     border-color: black;
     border-width: 0.2VW;
     border-radius: 1VW;
+    cursor: pointer;
 }
 
 .texto_3

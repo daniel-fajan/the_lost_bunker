@@ -13,14 +13,14 @@ function mostrar2()
 
 function confirmar1()
 {
-    sessionStorage.vida = 480;
+    sessionStorage.vida = 4400;
     sessionStorage.dano = 600;
     window.location.href = './fase1.html';
 }
 
 function confirmar2()
 {
-    sessionStorage.vida = 600;
-    sessionStorage.dano = 480;
+    sessionStorage.vida = 6500;
+    sessionStorage.dano = 400;
     window.location.href = './fase1.html';
 }

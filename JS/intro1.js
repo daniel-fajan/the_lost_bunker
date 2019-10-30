@@ -14,6 +14,7 @@ function info()
         foto_personagem.style.width = '650px';
         foto_personagem.style.marginLeft = '-8VW';
         foto_personagem.style.marginTop = '2VW';
+        sessionStorage.foto = '../Imagens/personagem2.png'
     }
 
     else
@@ -22,6 +23,7 @@ function info()
         foto_personagem.style.width = '390px';
         foto_personagem.style.marginLeft = '5VW';
         foto_personagem.style.marginTop = '2VW';
+        sessionStorage.foto = '../Imagens/personagem9.png'
     }
 }
 
