@@ -1,5 +1,16 @@
 
+
+var save = sessionStorage.save;
+
 function funcao_logar()
 {
-    window.location.href = "../HTML/intro1.html";
+    if (save == undefined)
+    {
+        window.location.href = '../HTML/intro1.html';
+    }
+
+    else
+    {
+        window.location.href = save;
+    }
 }

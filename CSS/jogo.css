@@ -5,7 +5,7 @@
     background-color: rgb(0, 5, 27);
     width: 100VW;
     height: 100VH;
-    position: fixed;
+    position: absolute;
 }
 
 .conteudo
@@ -17,6 +17,47 @@
     margin-left: 5VW;
     padding: 0.5VW;
     background-color: white;
+}
+
+.sair
+{
+    position: absolute;
+    width: 8VW;
+    height: 3VW;
+    margin-left: 0VW;
+    margin-top: 0VW;
+    background-color: rgb(0, 5, 27);
+    color: white;
+    border-style: none;
+    border-radius: 2VW;
+    font-family: tahoma;
+}
+
+.avancar
+{
+    position: absolute;
+    width: 5VW;
+    margin-left: 90%;
+    margin-top: 28%;
+    cursor: pointer;
+}
+
+.box
+{
+    position: absolute;
+    filter: opacity(50%);
+    width: 50VW;
+    height: 18VW;
+    margin-top: -20VW;
+    margin-left: 20VW;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.3VW;
+    border-color: rgb(0, 5, 27);
+    font-size: 1.5VW;
+    font-family: tahoma;
+    font-weight: 500;
+    color: rgb(0, 5, 27);
 }
 
 button

@@ -4,3 +4,8 @@
     background-image: url(../Imagens/bunker2.jpg);
     background-size: cover;
 }
+
+.texto_1, .texto_2, .texto_3
+{
+    display: none;
+}
